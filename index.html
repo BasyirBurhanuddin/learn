@@ -4,7 +4,8 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1>Generate a random password</h1>
+        <h1>Generate a </h1>
+        <h1 id="random-password">random password</h1>
         <h3>Never use an insecure password again</h3>
         
         <!-- Checkbox: -->
@@ -14,7 +15,7 @@
         <input class="pd" id="symbols-el" type="checkbox" />
         <label for="symbols"> Symbols</label></br>
         
-        <button onclick="generatePassword()"> Generate passwords</button>
+        <button id="generate-password" onclick="generatePassword()"> Generate passwords</button>
         <input type="number" id="passwordLength-el" placeholder="Enter password length..."></input>
         <output id="firstPassword-el" type="text" value="" onclick="copyFirstPassword()">
         <p id="secondPassword-el"></p>
